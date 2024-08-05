@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Cariño Picardal - Registered Social Worker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .about, .portfolio, .contact {
+            padding: 20px 0;
+        }
+        footer {
+            background: #50b3a2;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Emmanuel Cariño Picardal</h1>
+            <h2>Registered Social Worker</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Emmanuel Cariño Picardal, a dedicated and compassionate Registered Social Worker. With a strong background in providing support and advocacy for individuals and communities, I am committed to making a positive impact in people's lives.</p>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here you can showcase your projects, achievements, and any other professional work that highlights your skills and experience.</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Info</h2>
+            <p>Email: <a href="mailto:emmanuel.picardal@example.com">emmanuel.picardal@example.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/emmanuelpicardal" target="_blank">linkedin.com/in/emmanuelpicardal</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Emmanuel Cariño Picardal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
